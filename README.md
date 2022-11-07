@@ -1,4 +1,4 @@
-# WinSysadmin
+# Sysadmin
 Script for Sysadmin
 
 ## OldUserAndComputer.ps1
