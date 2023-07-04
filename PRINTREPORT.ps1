@@ -6,7 +6,7 @@ $To = "XXX@XXX.fr"
 
 $aPrinterList = @()
 $dateActuel= Get-Date -Format "dd/MM/yyyy"
-$Subject = $dateActuel+ " : Impression sur SRVFLIP4"
+$Subject = $dateActuel+ " : Impression sur XXX"
 $StartTime = $dateActuel+" 03:00:00"
 $EndTime = $dateActuel+" 23:00:00"
 $Results = Get-WinEvent -FilterHashTable @{LogName="Microsoft-Windows-PrintService/Operational"; ID=307; StartTime=$StartTime; EndTime=$EndTime;} -ComputerName XXX
