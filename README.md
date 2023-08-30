@@ -1,5 +1,10 @@
 # Sysadmin
-Script for Sysadmin
+My SysAdmin script collection
+
+## PrintReport.ps1
+Script to report on all prints made by a print server over a period of time and send it by email.  ( Task scheduler )
+
+<img src="images/PRINT.png"   width="30%">
 
 ## OldUserAndComputer.ps1
 
@@ -30,7 +35,7 @@ Il permet l'envoie d'un mail à chaque personne afin de les avertir.
 
 Script original ici : https://gallery.technet.microsoft.com/scriptcenter/Password-Expiry-Email-177c3e27
 
-Ma version : Ajout de l'envoie d'unun email avec un tableau récapitulatif de toutes les personnes dont le mot de passe va expirer. 
+Ma version : Ajout de l'envoie d'un email avec un tableau récapitulatif de toutes les personnes dont le mot de passe va expirer. 
 
 Options :
 
