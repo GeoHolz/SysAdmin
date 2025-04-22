@@ -1,61 +1,32 @@
-# Sysadmin
-My SysAdmin script collection
+# SCCM Updates and Issues
 
-## PrintReport.ps1
-Script to report on all prints made by a print server over a period of time and send it by email.  ( Task scheduler )
+Welcome to my SCCM Updates and Issues repository! Here, I share my experiences with System Center Configuration Manager (SCCM) updates and the various issues I've encountered along the way. This repository aims to provide insights, solutions, and best practices for managing SCCM environments.
 
-<img src="images/PRINT.png"   width="30%">
+## Introduction
 
-## OldUserAndComputer.ps1
+Managing SCCM can be challenging, especially when dealing with updates and unexpected issues. This repository documents my journey, including the problems I've faced and the solutions I've implemented. Whether you're a seasoned SCCM administrator or just starting out, I hope you find this information helpful.
 
-This script allows you to have the list of users with their expired passwords and computers that have not contacted the domain for X days
+## Contents
 
-.EXAMPLE 
-  PasswordChangeNotification.ps1 -smtpServer mail.domain.com -Days 21 -smtpfrom "IT Support <support@domain.com>" -smtpto support@domain.com -Email
+- **Issues and Solutions**: Detailed descriptions of the problems encountered and the steps taken to resolve them.
+- **Best Practices**: Tips and best practices for maintaining a healthy SCCM environment.
+- **Updates**: Information on the latest SCCM updates and how to apply them effectively.
 
-## ListUserRightsFolder.ps1
+## Getting Started
 
-Access.ps1 vous permet d'auditer vos répertoires afin d'obtenir la liste compléte des utilisateurs et leurs droits sur les répertoires.
+To get started, browse through the issues and solutions documented in this repository. Feel free to contribute by sharing your own experiences or suggesting improvements.
 
-Utilisation :
+## Contributing
 
-.\Get-FolderACL.ps1 -Path CheminLocal_OuReseau | ConvertTo-HTML | Out-File c:\resultat.html
+Contributions are welcome! If you have encountered similar issues or have additional solutions, please feel free to submit a pull request or open an issue.
 
-La variable $ListExclusion à la ligne 9 vous permet d'exclure certains groupes du résultat ( ex: domain admins )
 
-Script original : https://community.spiceworks.com/topic/367228-list-users-with-access-to-specific-folder?page=1
+## Contact
 
-Ma version : simplement l'ajout des groupes à exclure du rapport.
+If you have any questions or need further assistance, feel free to reach out.
 
-## PasswordExpiryEmail.ps1
+Happy SCCM managing!
 
-Ce script permet de donner la liste des utilisateurs dont le mot de passe expirera dans X days.
+---
 
-Il permet l'envoie d'un mail à chaque personne afin de les avertir.
-
-Script original ici : https://gallery.technet.microsoft.com/scriptcenter/Password-Expiry-Email-177c3e27
-
-Ma version : Ajout de l'envoie d'un email avec un tableau récapitulatif de toutes les personnes dont le mot de passe va expirer. 
-
-Options :
-
-* -smtpServer IP du serveur
-* -expireInDays Nombre de jours avant expiration du mot de passe
-* -from adresse email de provenance
-* -logging Permet de générer un fichier de log
-* -logPath Chemin vers le répertoire qui contiendra les logs
-* -testing Permet de simuler le script, tous les emails seront envoyés à testRecipient
-* -testRecipient email pour le mode test
-
-Paramètres du script :
-
-A partir de la ligne 45
-
-* smtpfromSysadmin email de provenance du mail
-* smtptoSysadmin email pour le rapport
-* messageSubjectSysadmin objet pour l'email
-
-Exemple :
-```powershell
-PasswordChangeNotification.ps1 -smtpServer mail.domain.com -expireInDays 21 -from "IT Support <support@domain.com>" -Logging -LogPath "c:\logFiles" -testing -testRecipient support@domain.com 
-```
+*Note: This repository is based on personal experiences and may not cover all possible scenarios. Always test changes in a pre-production environment before applying them to production.*
