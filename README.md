@@ -14,6 +14,17 @@ Here you'll find a collection of scripts, troubleshooting notes, and best practi
 - **images/**  
   Screenshots and visuals illustrating certain procedures or error messages.
 
+## 📚 File Index
+
+### 📁 active-directory/
+- [`list_users_in_ou.ps1`](active-directory/list_users_in_ou.ps1)
+
+### 📁 sccm/
+- [`0x87d00607.md`](sccm/0x87d00607.md)
+- [`clean-client.ps1`](sccm/clean-client.ps1)
+- [`sccm-logs-location.md`](sccm/sccm-logs-location.md)
+
+
 ## 🎯 Purpose
 
 The goal of this repository is to share hands-on experience from the field to help other sysadmins:
