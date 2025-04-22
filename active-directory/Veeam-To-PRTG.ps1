@@ -1,47 +1,34 @@
 <#
-        .SYNOPSIS
-        PRTG Veeam Advanced Sensor
+.SYNOPSIS
+    PRTG Advanced Sensor for Veeam Backup & Replication
 
-        .DESCRIPTION
-        Advanced Sensor will Report Statistics about Backups during last 24 Hours and current Repository usage.
+.DESCRIPTION
+    This script collects statistics from Veeam Backup & Replication jobs and outputs them in an XML format compatible with PRTG custom sensors.
 
-        .PARAMETER httppush
-        Enables http push, usefull if you want to run the Script on the Veeam Server itself
-        PRTG Sensor: HTTP Push Data Advanced
+    Originally created by Markus Kraus, and later adapted and customized by GeoHolz to fit specific monitoring requirements.
 
-        .EXAMPLE
-        PRTG-VeeamBRStats-v3.ps1 -BRHost veeam01.lan.local
+.AUTHOR
+    Original author: Markus Kraus (https://github.com/mycloudrevolution)
+    Modified by: GeoHolz (https://github.com/GeoHolz)
 
-        .EXAMPLE
-        PRTG-VeeamBRStats-v3.ps1 -BRHost veeam01.lan.local -reportmode "Monthly" -repoCritical 80 -repoWarn 70 -Debug
+.VERSION
+    1.0 - Initial public version by Markus Kraus
+    1.1 - Customization by GeoHolz:
+          - Adjusted output format
+          - Custom error/status handling
+          - Adapted for specific environment requirements
 
-        .EXAMPLE
-        PRTG-VeeamBRStats-v3.ps1 -BRHost veeam01.lan.local -reportmode "Monthly" -repoCritical 80 -repoWarn 70 -selChann "BR"
+.LAST UPDATED
+    2025-04-22
 
-        .EXAMPLE
-        PRTG-VeeamBRStats-v3.ps1 -httppush:$true -httpserver 10.10.10.10 -httptoken 24A26A91-D292-4FF7-895D-B5E128A4D6C9 -httpport 5050
+.NOTES
+    This script is part of the SysAdmin repository:
+    https://github.com/GeoHolz/SysAdmin
 
-        .Notes
-        NAME:  PRTG-VeeamBRStats-v3.ps1
-        LASTEDIT: 2022/03/01
-        VERSION: 3.1.0
-        KEYWORDS: Veeam, PRTG
+.LINK
+    https://github.com/mycloudrevolution/Advanced-PRTG-Sensors/blob/master/Veeam/PRTG-VeeamBRStats.ps1
+#>
 
-        CREDITS:
-        Thanks to Shawn, for creating an awsome Reporting Script:
-        http://blog.smasterson.com/2016/02/16/veeam-v9-my-veeam-report-v9-0-1/
-
-        Thanks to Bernd Leinfelder for the Scalout Repository part!
-        https://github.com/berndleinfelder
-
-        Thanks to Guy Zuercher for the Endpoint Backup part and a lot of other enhancmeents!
-        https://github.com/gzuercher
-
-		Thanks to Jannos-443 for the great capability to use HttpPush
-		https://github.com/Jannos-443
-
-        .Link
-        http://mycloudrevolution.com/
 
 #>
 #Requires -Version 3
