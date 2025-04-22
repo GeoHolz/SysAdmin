@@ -1,0 +1,12 @@
+{
+    "emeraldwalk.runonsave": {
+      "commands": [
+        {
+          "match": ".*",
+          "isShellCommand": true,
+          "cmd": "python ./py/generate_index.py"
+        }
+      ]
+    }
+  }
+  
