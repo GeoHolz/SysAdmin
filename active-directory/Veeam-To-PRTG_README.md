@@ -37,6 +37,7 @@ The script should be run via a **Windows Scheduled Task** (e.g., every 10 minute
   -httpserver "prtg.domain.local" `
   -httpport 5050 `
   -httptoken "my-prtg-token"
+  ```
 
 ## 📌 Parameters
 
