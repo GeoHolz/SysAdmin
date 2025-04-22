@@ -39,10 +39,12 @@ Thanks for visiting, and happy scripting!
 ## 📚 File Index
 
 ### 📁 active-directory/
+- [`ADHealthCheck.ps1`](active-directory/ADHealthCheck.ps1)
 - [`ListUserRightsFolder.ps1`](active-directory/ListUserRightsFolder.ps1)
 - [`OldUserAndComputer.ps1`](active-directory/OldUserAndComputer.ps1)
 - [`PRINTREPORT.ps1`](active-directory/PRINTREPORT.ps1)
 - [`PasswordExpiryMail.ps1`](active-directory/PasswordExpiryMail.ps1)
+- [`README_ADHealthCheck.md`](active-directory/README_ADHealthCheck.md)
 ### 📁 sccm/
 ### 📁 sccm/issues/
 - [`SCCM2403-DP-ARM64.md`](sccm/issues/SCCM2403-DP-ARM64.md)
