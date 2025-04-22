@@ -14,17 +14,6 @@ Here you'll find a collection of scripts, troubleshooting notes, and best practi
 - **images/**  
   Screenshots and visuals illustrating certain procedures or error messages.
 
-## 📚 File Index
-
-### 📁 active-directory/
-- [`list_users_in_ou.ps1`](active-directory/list_users_in_ou.ps1)
-
-### 📁 sccm/
-- [`0x87d00607.md`](sccm/0x87d00607.md)
-- [`clean-client.ps1`](sccm/clean-client.ps1)
-- [`sccm-logs-location.md`](sccm/sccm-logs-location.md)
-
-
 ## 🎯 Purpose
 
 The goal of this repository is to share hands-on experience from the field to help other sysadmins:
@@ -46,3 +35,14 @@ If you’d like to share your own scripts or field experience, feel free to open
 ---
 
 Thanks for visiting, and happy scripting!
+
+## 📚 File Index
+
+### 📁 active-directory/
+- [`ListUserRightsFolder.ps1`](active-directory/ListUserRightsFolder.ps1)
+- [`OldUserAndComputer.ps1`](active-directory/OldUserAndComputer.ps1)
+- [`PRINTREPORT.ps1`](active-directory/PRINTREPORT.ps1)
+- [`PasswordExpiryMail.ps1`](active-directory/PasswordExpiryMail.ps1)
+### 📁 sccm/
+### 📁 sccm/issues/
+- [`SCCM2403-DP-ARM64.md`](sccm/issues/SCCM2403-DP-ARM64.md)
