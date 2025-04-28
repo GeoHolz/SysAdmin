@@ -726,5 +726,5 @@ Add-Content $report "</html>"
 #Stop-Transcript
 $tmp_filename="$getForest-ADReport.htm"	
 $client = New-Object System.Net.WebClient
-$client.Credentials = New-Object System.Net.NetworkCredential("adreport","reportad2024")
+$client.Credentials = New-Object System.Net.NetworkCredential("adreport","pass")
 $client.UploadFile("ftp://X.X.X.X/adreport/"+$tmp_filename,$report)	
