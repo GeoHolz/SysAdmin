@@ -40,3 +40,5 @@ Thanks for visiting, and happy scripting!
 ### 📁 sccm/
 ### 📁 sccm/issues/
 - [`SCCM2403-DP-ARM64.md`](sccm/issues/SCCM2403-DP-ARM64.md)
+### 📁 windows/
+- [`extend-drive-recovery.md`](windows/extend-drive-recovery.md)

@@ -5,7 +5,7 @@ On Windows Server (e.g., 2022) hosted on ESXi, it's common to extend the virtual
 This guide explains how to temporarily remove, then recreate, the recovery partition to free up space for extending C:.
 
 ---
-![Disk layout before extension](images/diskmgmt.png)
+![Disk layout before extension](../images/diskmgmt.png)
 
 ## ✅ Steps Summary
 
