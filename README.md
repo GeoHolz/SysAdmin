@@ -1,24 +1,12 @@
-# 🛠️ Scripts and Tools for Windows System Administrators
+# 🛠️ Scripts and Tools for System Administrators
 
-Welcome to this repository dedicated to Windows system administration.  
-Here you'll find a collection of scripts, troubleshooting notes, and best practices to help manage Windows environments — particularly with **System Center Configuration Manager (SCCM)** and **Active Directory**.
-
-## 📂 Repository Structure
-
-- **active-directory/**  
-  Scripts and tools for daily Active Directory administration.
-
-- **sccm/**  
-  Real-world feedback on SCCM updates, common issue resolutions, and practical tips.
-
-- **images/**  
-  Screenshots and visuals illustrating certain procedures or error messages.
+Welcome to this repository dedicated to system administration.  
+Here you'll find a collection of scripts, troubleshooting notes, and best practices to help manage Windows and linux environments — particularly with **System Center Configuration Manager (SCCM)** and **Active Directory**.
 
 ## 🎯 Purpose
 
 The goal of this repository is to share hands-on experience from the field to help other sysadmins:
 
-- Understand and fix frequent issues related to SCCM.
 - Apply best practices for maintaining a secure and stable infrastructure.
 - Automate repetitive tasks using proven scripts.
 
