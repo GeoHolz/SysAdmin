@@ -38,8 +38,7 @@ Thanks for visiting, and happy scripting!
 - [`wsus-cleanup.md`](active-directory/wsus-cleanup.md)
 - [`wsus-cleanup.ps1`](active-directory/wsus-cleanup.ps1)
 ### 📁 sccm/
-### 📁 sccm/issues/
-- [`SCCM2403-DP-ARM64.md`](sccm/issues/SCCM2403-DP-ARM64.md)
+- [`ISSUE-SCCM2403-DP-ARM64.md`](sccm/ISSUE-SCCM2403-DP-ARM64.md)
 ### 📁 windows/
 - [`Veeam-To-PRTG.md`](windows/Veeam-To-PRTG.md)
 - [`Veeam-To-PRTG.ps1`](windows/Veeam-To-PRTG.ps1)
