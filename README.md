@@ -38,6 +38,8 @@ Thanks for visiting, and happy scripting!
 
 ## 📚 File Index
 
+### 📁 EasyRSA/
+- [`EasyRSA-windows.md`](EasyRSA/EasyRSA-windows.md)
 ### 📁 active-directory/
 - [`ADHealthCheck.ps1`](active-directory/ADHealthCheck.ps1)
 - [`ADHealthCheck_README.md`](active-directory/ADHealthCheck_README.md)
