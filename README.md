@@ -35,12 +35,12 @@ Thanks for visiting, and happy scripting!
 - [`OldUserAndComputer.ps1`](active-directory/OldUserAndComputer.ps1)
 - [`PRINTREPORT.ps1`](active-directory/PRINTREPORT.ps1)
 - [`PasswordExpiryMail.ps1`](active-directory/PasswordExpiryMail.ps1)
-- [`Veeam-To-PRTG.ps1`](active-directory/Veeam-To-PRTG.ps1)
-- [`Veeam-To-PRTG_README.md`](active-directory/Veeam-To-PRTG_README.md)
 - [`wsus-cleanup.md`](active-directory/wsus-cleanup.md)
 - [`wsus-cleanup.ps1`](active-directory/wsus-cleanup.ps1)
 ### 📁 sccm/
 ### 📁 sccm/issues/
 - [`SCCM2403-DP-ARM64.md`](sccm/issues/SCCM2403-DP-ARM64.md)
 ### 📁 windows/
+- [`Veeam-To-PRTG.md`](windows/Veeam-To-PRTG.md)
+- [`Veeam-To-PRTG.ps1`](windows/Veeam-To-PRTG.ps1)
 - [`extend-drive-recovery.md`](windows/extend-drive-recovery.md)
