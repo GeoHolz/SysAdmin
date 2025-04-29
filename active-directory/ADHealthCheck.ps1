@@ -19,12 +19,6 @@ $timeout = "60"
 $tmp_date=(Get-Date).ToString("dd-MM-yyyy")
 $getForest = [system.directoryservices.activedirectory.Forest]::GetCurrentForest()
 $DCServers = $getForest.domains | ForEach-Object {$_.DomainControllers} | ForEach-Object {$_.Name}
-
-if((test-path $report) -like $false)
-{
-	new-item $report -type file
-}
-
 switch ($getForest)
 {
     "LOCAL.DOMAIN.1" { $site="LD1" 
@@ -32,6 +26,12 @@ switch ($getForest)
     "LOCAL.DOMAIN.2" { $site="LD2" 
     $report = "D:\DSI\Script\$getForest-ADReport.htm" }
 }
+if((test-path $report) -like $false)
+{
+	new-item $report -type file
+}
+
+
 
 <#################################################################################################################################################################
 																HTML Report Content
