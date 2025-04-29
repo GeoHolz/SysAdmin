@@ -37,6 +37,8 @@ Thanks for visiting, and happy scripting!
 - [`PasswordExpiryMail.ps1`](active-directory/PasswordExpiryMail.ps1)
 - [`Veeam-To-PRTG.ps1`](active-directory/Veeam-To-PRTG.ps1)
 - [`Veeam-To-PRTG_README.md`](active-directory/Veeam-To-PRTG_README.md)
+- [`wsus-cleanup.md`](active-directory/wsus-cleanup.md)
+- [`wsus-cleanup.ps1`](active-directory/wsus-cleanup.ps1)
 ### 📁 sccm/
 ### 📁 sccm/issues/
 - [`SCCM2403-DP-ARM64.md`](sccm/issues/SCCM2403-DP-ARM64.md)

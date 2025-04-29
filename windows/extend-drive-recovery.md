@@ -83,3 +83,4 @@ reagentc /enable
 - Always **back up** before modifying partitions.
 - Do **not** assign a drive letter to the new recovery partition.
 - Works on Windows Server 2016, 2019, 2022 and Windows 10/11.
+- Source : https://thedxt.ca/2023/06/moving-windows-recovery-partition-correctly/
