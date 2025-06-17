@@ -37,6 +37,9 @@ Thanks for visiting, and happy scripting!
 - [`PasswordExpiryMail.ps1`](active-directory/PasswordExpiryMail.ps1)
 - [`wsus-cleanup.md`](active-directory/wsus-cleanup.md)
 - [`wsus-cleanup.ps1`](active-directory/wsus-cleanup.ps1)
+### 📁 linux/
+- [`dhcp-to-prtg.md`](linux/dhcp-to-prtg.md)
+- [`dhcp-to-prtg.py`](linux/dhcp-to-prtg.py)
 ### 📁 sccm/
 - [`ISSUE-SCCM2403-DP-ARM64.md`](sccm/ISSUE-SCCM2403-DP-ARM64.md)
 ### 📁 windows/

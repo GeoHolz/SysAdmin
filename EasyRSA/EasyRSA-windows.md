@@ -18,7 +18,7 @@ This guide explains how to generate a server certificate with **EasyRSA**, inclu
 
 Use the following command to create a server certificate that includes SANs (Subject Alternative Names):
 
-`easyrsa --subject-alt-name="DNS=serv.example.com,DNS=serv" build-server-full serv.example.com`
+`easyrsa --subject-alt-name="DNS=serv.example.com,DNS=serv" build-server-full serv.example.com nopass`
 
 📌 This generates:
 - A private key: `pki/private/serv.example.com.key`  
