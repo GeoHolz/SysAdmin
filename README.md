@@ -1,7 +1,7 @@
 # 🛠️ Scripts and Tools for System Administrators
 
 Welcome to this repository dedicated to system administration.  
-Here you'll find a collection of scripts, troubleshooting notes, and best practices to help manage Windows and linux environments — particularly with **System Center Configuration Manager (SCCM)** and **Active Directory**.
+Here you'll find a collection of scripts, troubleshooting notes, and best practices to help manage Windows and linux environments.
 
 ## 🎯 Purpose
 
