@@ -20,8 +20,6 @@ Feel free to adapt these resources to fit your own environment and use case.
 Contributions are welcome!  
 If you’d like to share your own scripts or field experience, feel free to open a pull request or create an issue to start a discussion.
 
----
-
 Thanks for visiting, and happy scripting!
 
 ## 📚 File Index
