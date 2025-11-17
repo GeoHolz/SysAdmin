@@ -65,6 +65,10 @@ For each pool, the script sends **two channels**:
 
 ---
 
+## 📁 File Location
+
+[Script on GitHub](https://github.com/GeoHolz/SysAdmin/blob/master/docs/linux/dhcp-to-prtg.py)
+
 ## ⏰ Crontab Example
 
 To run the script every 5 minutes:

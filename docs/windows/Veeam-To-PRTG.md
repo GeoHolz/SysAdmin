@@ -31,13 +31,13 @@ This script is used to **monitor the health and backup status of a Veeam Backup 
 The script should be run via a **Windows Scheduled Task** (e.g., every 10 minutes), with the following parameters:
 
 ```powershell
-.\Veeam-To-PRTG.ps1 `
-  -BRHost "YourVeeamServer.domain.local" `
-  -httppush:$true `
-  -httpserver "prtg.domain.local" `
-  -httpport 5050 `
+.\Veeam-To-PRTG.ps1 
+  -BRHost "YourVeeamServer.domain.local" 
+  -httppush:$true 
+  -httpserver "prtg.domain.local" 
+  -httpport 5050 
   -httptoken "my-prtg-token"
-  ```
+```
 
 ## 📌 Parameters
 
@@ -53,7 +53,8 @@ The script should be run via a **Windows Scheduled Task** (e.g., every 10 minute
 
 ## 📁 File Location
 
-- Script location: `active-directory/Veeam-To-PRTG.ps1`
+[Script on GitHub](https://github.com/GeoHolz/SysAdmin/blob/master/docs/windows/Veeam-To-PRTG.ps1)
+
 
 ---
 

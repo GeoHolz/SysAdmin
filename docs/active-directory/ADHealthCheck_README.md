@@ -58,9 +58,9 @@ The report is structured into multiple sections, each targeting a specific area 
 
 ---
 
-## 📁 File
+## 📁 File Location
 
-- Script location: `active-directory/ADHealthCheck.ps1`
+[Script on GitHub](https://github.com/GeoHolz/SysAdmin/blob/master/docs/active-directory/ADHealthCheck.ps1)
 
 ---
 

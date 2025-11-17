@@ -1,8 +1,6 @@
 site_name: SysAdmin Blog
 theme:
   name: material
-nav:
-  - Home: index.md
 plugins:
   - search
   - awesome-pages
