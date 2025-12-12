@@ -50,7 +50,9 @@ Simply removes updates that are already in the "Declined" state on the WSUS serv
 ```powershell
 .\Auto-WSUSUpdates.ps1 -DeleteDeclined
 ```
+## 📁 File Location
 
+[Script on GitHub](https://github.com/GeoHolz/SysAdmin/blob/master/docs/windows/Auto-Wsus.ps1)
 ## ⚠️ Prerequisites
 
 * The script must be run with **Administrator privileges** on the WSUS server or a machine with the necessary permissions.
