@@ -54,5 +54,4 @@ Inside the script, you can modify the following variables to fit your company:
 * **$smtptoSysadmin**: Set this to your team's mailbox to receive the daily summary.
 * **$body**: The HTML template used for the user email (includes links to Webmail or Intranet).
 
----
-*Based on the original script by Robert Pearman, updated by Geo Holz ([blog.jolos.fr](https://blog.jolos.fr))*
+{{ github_link() }}

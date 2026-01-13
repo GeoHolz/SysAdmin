@@ -49,5 +49,4 @@ Inside the script, you can adjust the time window by modifying:
 | **UserName** | The AD user who initiated the print. |
 | **PrinterName** | The name of the printer used. |
 
----
-*Script developed for printing activity monitoring.*
+{{ github_link() }}
