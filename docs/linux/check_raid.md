@@ -1,4 +1,4 @@
-# Gotify RAID Monitoring
+# RAID Monitoring
 
 This repository contains a lightweight Bash script designed to monitor Linux Software RAID (mdadm) health and send real-time alerts via Gotify.
 
