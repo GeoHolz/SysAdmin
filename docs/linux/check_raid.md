@@ -12,8 +12,8 @@ The script queries the mdadm utility for a specific MD device (e.g., /dev/md127)
 1.  Health Check: It extracts counts for active, working, and failed devices.
 1.  Fault Identification: If a drive is marked as faulty or removed, the script identifies the specific disk and includes it in the alert.
 1.  Smart Priority:
-*  Priority 8: Used for resync operations.
-*  Priority 10: Used for critical failures.
+    *  Priority 8: Used for resync operations.
+    *  Priority 10: Used for critical failures.
 
 ### Key Features
 
