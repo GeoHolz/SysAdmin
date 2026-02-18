@@ -1,4 +1,4 @@
-# Active Directory Directory Permissions Auditor
+# Directory Permissions Auditor
 
 This PowerShell script audits and lists all users who have access to a specific directory. It goes beyond simple ACL listing by **recursively expanding Active Directory groups** to identify the individual users behind them.
 

@@ -1,4 +1,4 @@
-# 🛡️ Using EasyRSA Certificates in a Windows Domain
+# 🛡️ EasyRSA for Windows
 
 This guide explains how to generate a server certificate with **EasyRSA**, including a **Subject Alternative Name (SAN)**, and how to convert it into a format compatible with **Windows systems**, particularly for use with Active Directory, IIS, RDP, or LDAPS.
 

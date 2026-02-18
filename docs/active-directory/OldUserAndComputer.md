@@ -1,4 +1,4 @@
-# AD : Password Expiry & Stale Computer Auditor
+# Password Expiry & Stale Computer Auditor
 
 This script provides an automated way to monitor Active Directory health by identifying two critical security concerns: users with expired passwords and computers that haven't contacted the domain for a specified number of days. It can output results directly to the console or send a formatted HTML report via email.
 

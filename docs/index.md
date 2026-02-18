@@ -1,4 +1,4 @@
-# 🛠️ Scripts and Tools for System Administrators
+# 🛠️ Scripts and Tools
 
 Welcome to this repository dedicated to system administration.  
 Here you'll find a collection of scripts, troubleshooting notes, and best practices to help manage Windows and linux environments.

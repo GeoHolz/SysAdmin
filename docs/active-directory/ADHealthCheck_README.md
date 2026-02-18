@@ -1,4 +1,4 @@
-# 🩺 ADHealthCheck.ps1 – Active Directory Offline Health Report
+# 🩺 Active Directory Offline Health Report
 
 This PowerShell script generates an **HTML health report** for an **Active Directory domain that is disconnected from the internet**.
 

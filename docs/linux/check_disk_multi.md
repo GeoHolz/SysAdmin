@@ -1,4 +1,4 @@
-# PRTG Linux Disk Monitoring Script
+# PRTG Disk Monitoring
 
 This repository contains `check_disk_multi.sh`, a custom Bash script designed to be used with the **SSH Script Advanced** sensor in PRTG Network Monitor.
 

@@ -1,4 +1,4 @@
-# DHCP Pool Usage to PRTG
+# PRTG DHCP Pool Usage 
 
 This Python script reads your ISC DHCP server's `dhcpd.leases` file and pushes per-pool usage statistics to PRTG using the HTTP Push Data Advanced Sensor.
 
