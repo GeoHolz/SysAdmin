@@ -1,4 +1,4 @@
-# 📡 Veeam-To-PRTG.ps1
+# 📡 PRTG Veeam
 
 This script is used to **monitor the health and backup status of a Veeam Backup & Replication server**, and send the results to a **PRTG Network Monitor** server using an **HTTP Push sensor**.
 
